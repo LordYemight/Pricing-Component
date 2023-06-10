@@ -1,7 +1,7 @@
 @import url(https://fonts.google.com/specimen/Montserrat);
 body{
   background-color: hsl(240, 78%, 98%);
-  font-family: Montserrat;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .topimg {
   position: absolute;
