@@ -1,0 +1,187 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+body{
+  background-color: hsl(240, 78%, 98%);
+  font-family: Montserrat;
+}
+.topimg {
+  position: absolute;
+  width: 20%;
+  margin-left: 78%;
+  height: 60vh;
+  margin-top: -20px;
+}
+.bottomimg {
+  position: fixed;
+  width: 40%;
+  height: 60vh;
+  margin-top: -10px;
+}
+p{
+  text-align: center;
+}
+.pri{
+  text-align: center;
+  margin-top: 2rem;
+  color: hsl(232, 4%, 36%);
+}
+.an_mo{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  gap: 1rem;
+}
+.annually{
+  color: hsl(234, 14%, 74%);
+  text-align: center;
+}
+.toggle{
+  background-color: hsl(237, 54%, 70%);
+  width: 40px;
+  border-radius: 15px;
+}
+.monthly{
+  color: hsl(234, 14%, 74%);
+  text-align: center;
+}
+.container{
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: flex;
+  justify-content:first baseline;
+  border-radius: 15px;
+  height: 70vh;
+  
+  
+}
+
+.basic{
+  border: none;
+  width: 100%;
+  background-color: white;
+  height: auto;
+  margin-top: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  box-shadow: 0 0px 5px rgba(164, 164, 164, 0.991);
+}
+
+.professional{
+  border: none;
+  width: 100%;
+  background: hsl(237, 63%, 64%);
+  height: auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: -4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  box-shadow: 0 0px 5px rgba(164, 164, 164, 0.991);
+  
+}
+.master{
+  border: none;
+  width: 100%;
+  background-color: white;
+  height: auto;
+  margin-top: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  box-shadow: 0 0px 5px rgba(164, 164, 164, 0.991);
+}
+.head{
+  color: hsl(232, 4%, 36%);
+  text-align: center;
+}
+.head2{
+  
+  color: white;
+}
+.price{
+  color: hsl(232, 4%, 36%);
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+.price2 {
+  
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+.sto{
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding-bottom: 25px;
+  color: hsl(232, 4%, 36%);
+}
+.sto2 {
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding-bottom: 25px;
+  color: white;
+}
+
+.users{
+  color: hsl(232, 4%, 36%);
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding-bottom: 25px;
+}
+.user2{
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding-bottom: 25px;
+  color: white;
+}
+
+.data{
+  color: hsl(232, 4%, 36%);
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding-bottom: 15px;
+}
+.data2 {
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding-bottom: 15px;
+  color: white;
+}
+
+.btn{
+  width: 100%;
+  background: linear-gradient(to right, hsl(236, 72%, 79%) 0%,hsl(237, 63%, 64%));
+  border-radius: 5px;
+  height: 6vh;
+  margin-bottom: 5px ;
+  margin-left: 5px;
+  margin-right: 5px ;
+  border: none;
+  color: white;
+  margin-bottom: 15px;
+}
+#btn{
+  color: hsl(236, 72%, 79%);
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  height: 6vh;
+  margin-bottom: 5px ;
+  margin-left: 5px;
+  margin-right: 5px ;
+  border: none;
+  margin-bottom: 15px;
+}
