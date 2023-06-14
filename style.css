@@ -2,6 +2,7 @@
 body{
   background-color: hsl(240, 78%, 98%);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
 }
 .topimg {
   position: absolute;
@@ -23,6 +24,7 @@ p{
   text-align: center;
   margin-top: 2rem;
   color: hsl(232, 4%, 36%);
+  font-size: 20px;
 }
 .an_mo{
   display: flex;
@@ -30,19 +32,29 @@ p{
   margin: 15px;
   gap: 1rem;
 }
+
+#icon{
+  cursor: pointer;
+}
 .annually{
   color: hsl(234, 14%, 74%);
   text-align: center;
+  font-size: 18px;
 }
 .toggle{
-  background-color: hsl(237, 54%, 70%);
-  width: 40px;
+  width: 60px;
   border-radius: 15px;
+  flex-direction: row;
+  display: flex;
+  margin-bottom: -10px;
 }
 .monthly{
   color: hsl(234, 14%, 74%);
   text-align: center;
+  font-size: 18px;
 }
+
+
 .container{
   position: relative;
   margin-top: 50px;
@@ -161,6 +173,7 @@ p{
   color: white;
 }
 
+
 .btn{
   width: 100%;
   background: linear-gradient(to right, hsl(236, 72%, 79%) 0%,hsl(237, 63%, 64%));
@@ -174,6 +187,14 @@ p{
   margin-bottom: 15px;
   cursor: pointer;
 }
+
+
+button:hover{
+  background: linear-gradient(to right, hsl(0, 0%, 100%) 0%,hsl(0, 0%, 100%));
+  color: hsl(236, 72%, 79%);
+  border: 1px solid black;
+}
+
 #btn{
   color: hsl(236, 72%, 79%);
   background-color: white;
@@ -186,4 +207,87 @@ p{
   border: none;
   margin-bottom: 15px;
   cursor: pointer;
+}
+
+
+#btn:hover{
+  background: linear-gradient(to right, hsl(237, 63%, 64%) 0%,hsl(237, 63%, 64%));
+  border: 1px solid black;
+
+}
+
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+ 
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+ 
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border: 1px solid #adb5bd;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+ 
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 20px;
+  left: 0.27em;
+  bottom: 0.25em;
+  background-color: #adb5bd;
+  transition: .4s;
+}
+
+ 
+
+input:checked + .slider {
+  background-color: hsl(237, 54%, 70%);
+  border: 1px solid hsl(237, 54%, 70%);
+}
+
+ 
+
+input:focus + .slider {
+  box-shadow: 0 0 1px hsl(237, 54%, 70%);
+}
+
+ 
+
+input:checked + .slider:before {
+  transform: translateX(1.4em);
+  background-color: #fff;
+}
+
+
+@media (max-width: 375px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    
+  }
 }
